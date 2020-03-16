@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ranger_client:war exploded">
+    <output-path>$PROJECT_DIR$/../ranger_client/target/ranger_client</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ranger_client" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.4" />
+          <element id="library" level="project" name="Maven: com.netflix.feign:feign-core:8.18.0" />
+          <element id="library" level="project" name="Maven: org.jvnet:animal-sniffer-annotation:1.0" />
+          <element id="library" level="project" name="Maven: com.netflix.feign:feign-jackson:8.18.0" />
+          <element id="library" level="project" name="Maven: com.netflix.feign:feign-okhttp:8.18.0" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.2.0" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.6.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:21.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../ranger_client/target/ranger_client/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ranger_client/web/Web" />
+    </root>
+  </artifact>
+</component>

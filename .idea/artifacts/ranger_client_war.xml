@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ranger_client:war">
+    <output-path>$PROJECT_DIR$/../ranger_client/target</output-path>
+    <root id="archive" name="ranger_client.war">
+      <element id="artifact" artifact-name="ranger_client:war exploded" />
+    </root>
+  </artifact>
+</component>
