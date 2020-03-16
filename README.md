@@ -1,0 +1,2 @@
+# ranger_client
+ranger_client是权限管理控制的一套开发程序。大数据技术栈第一项工程，后续不断把各个环节的技术demo上传上来。
